@@ -27,6 +27,9 @@ const config: Config = {
       widest: "0.1em",
     },
     extend: {
+      fontFamily: {
+        lora: ["var(--font-lora)"],
+      },
       colors: {
         prim1: "#FF840E",
         prim2: "#FFBA75",
@@ -40,6 +43,7 @@ const config: Config = {
       keyframes: {},
     },
   },
+  darkMode: "class",
   plugins: [],
 };
 export default config;

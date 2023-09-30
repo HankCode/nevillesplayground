@@ -1,6 +1,10 @@
+import NavBar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Lora, Inter } from "next/font/google";
+import Providers from "./providers";
+
+const lora = Lora({ subsets: ["latin"], variable: "--font-lora" });
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,8 +16,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="bg-gradient-to-br from-gray-700 to-gray-800">{children}</div>
+      <body className={`${inter.className} ${lora.variable}`}>
+        <Providers>
+          <div className="bg-gradient-to-br from-gray-700 to-gray-800">
+            <NavBar />
+            {children}
+          </div>
+        </Providers>
       </body>
     </html>
   );
