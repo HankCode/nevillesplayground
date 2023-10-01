@@ -6,9 +6,9 @@ import { FaBars } from "react-icons/fa";
 
 const NavLinks = [
   { link: "/", name: "Home" },
-  { link: "/", name: "Knowledge" },
-  { link: "/", name: "Testimonials" },
-  { link: "/", name: "Free Neville" },
+  { link: "/", name: "Science" },
+  { link: "/", name: "Metaphysics" },
+  { link: "/", name: "Glossary" },
 ];
 
 export const NavBar = () => {

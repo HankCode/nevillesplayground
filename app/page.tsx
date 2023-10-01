@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <section className="pt-44 pb-36 text-center">
-        <h1 className="font-lora font-bold text-9xl text-center mx-auto max-w-4xl leading-[150px] text-gray-400">
+        <h1 className="font-lora font-bold 2xl:text-9xl text-7xl text-center mx-auto max-w-4xl 2xl:leading-[150px] text-gray-400">
           Manifest your <span className="font-extrabold text-gray-50">dream life</span> with Neville
         </h1>
         <p className="text-xl mx-auto max-w-4xl mt-8 leading-8">
@@ -18,7 +18,15 @@ const Home = () => {
           </div>
         </button>
       </section>
-      <section className=""></section>
+      <section>
+        <ul className="flex flex-col gap-y-10 text-xl font-medium text-center">
+          <li>Call to adventure</li>
+          <li>Metaphysics</li>
+          <li>The old man</li>
+          <li>Define objectives</li>
+          <li>Be doer of the word</li>
+        </ul>
+      </section>
     </>
   );
 };
