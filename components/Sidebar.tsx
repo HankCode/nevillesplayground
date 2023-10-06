@@ -90,7 +90,7 @@ export function SidebarItem({ icon, text, active, alert }: SideBarItemProps) {
         <div
           className={`
           absolute left-full rounded-md px-2 py-1 ml-6
-          bg-gray-700 text-sm
+          bg-gray-500 text-gray-50 text-sm
           invisible opacity-20 -translate-x-3 transition-all
           group-hover:visible group-hover:opacity-100 group-hover:translate-x-0
       `}
