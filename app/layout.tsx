@@ -2,7 +2,7 @@ import NavBar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Lora, Inter } from "next/font/google";
-import Providers from "./providers";
+import Provider from "@/components/Provider";
 
 const lora = Lora({ subsets: ["latin"], variable: "--font-lora" });
 
@@ -17,12 +17,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={`${inter.className} ${lora.variable}`}>
-        <Providers>
+        <Provider>
           <div className="bg-gradient-to-br from-gray-700 to-gray-800">
             <NavBar />
             {children}
           </div>
-        </Providers>
+        </Provider>
       </body>
     </html>
   );

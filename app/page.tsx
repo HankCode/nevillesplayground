@@ -20,11 +20,27 @@ const Home = () => {
       </section>
       <section>
         <ul className="flex flex-col gap-y-10 text-xl font-medium text-center">
-          <li>Call to adventure</li>
-          <li>Metaphysics</li>
-          <li>The old man</li>
-          <li>Define objectives</li>
-          <li>Be doer of the word</li>
+          <li>
+            <h3>Burning desire</h3>
+            <p>God speak to men through the medium of his basic desires.</p>
+          </li>
+
+          <li>
+            {" "}
+            <h3> Metaphysics</h3>
+          </li>
+          <li>
+            {" "}
+            <h3> The old man</h3>
+          </li>
+          <li>
+            {" "}
+            <h3> Define objectives</h3>
+          </li>
+          <li>
+            {" "}
+            <h3> Be doer of the word</h3>
+          </li>
         </ul>
       </section>
     </>
