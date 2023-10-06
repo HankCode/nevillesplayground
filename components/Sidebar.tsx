@@ -1,5 +1,5 @@
 import { MoreVertical } from "lucide-react";
-import { AiOutlineClose, AiOutlineBars } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMore } from "react-icons/ai";
 import { useContext, createContext, useState } from "react";
 import { LiaBarsSolid } from "react-icons/lia";
 
@@ -21,11 +21,7 @@ export default function Sidebar({ children }: { children: React.ReactNode }) {
             onClick={() => setExpanded((curr) => !curr)}
             className="p-1.5 rounded-lg bg-gray-900 hover:bg-gray-950"
           >
-            {expanded ? (
-              <AiOutlineClose className="w-6 h-6" />
-            ) : (
-              <LiaBarsSolid className="w-6 h-6" />
-            )}
+            {expanded ? <AiOutlineClose size={25} /> : <LiaBarsSolid size={25} />}
           </button>
         </div>
 
@@ -33,7 +29,7 @@ export default function Sidebar({ children }: { children: React.ReactNode }) {
           <ul className="flex-1 px-3">{children}</ul>
         </SidebarContext.Provider>
 
-        <div className="border-t border-gray-700  flex p-3">
+        <div className="border-t border-gray-700 flex p-3">
           <img
             src="https://ui-avatars.com/api/?background=c7d2fe&color=3730a3&bold=true"
             alt=""
@@ -46,10 +42,10 @@ export default function Sidebar({ children }: { children: React.ReactNode }) {
           `}
           >
             <div className="leading-4">
-              <h4 className="font-semibold">John Doe</h4>
+              <h4 className="font-semibold text-lg">Henrik Näsmark</h4>
               <span className="text-xs text-gray-600">johndoe@gmail.com</span>
             </div>
-            <MoreVertical size={20} />
+            <AiOutlineMore size={25} />
           </div>
         </div>
       </nav>
