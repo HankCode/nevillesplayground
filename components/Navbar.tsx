@@ -10,7 +10,7 @@ const NavBar = async () => {
     <div className={`w-full z-30 bg-gray-800 shadow-md border-b border-gray-700`}>
       <nav
         className={` w-full transition-all
-       duration-200 ease-in-out xmargin py-2 md:mt-3.5`}
+       duration-200 ease-in-out xmargin 2xl:px-16 py-2 md:py-5`}
       >
         <div className="flex flex-wrap items-center justify-between text-base">
           <Link href="/">
