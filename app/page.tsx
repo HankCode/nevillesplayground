@@ -3,18 +3,20 @@ import { BsArrowRight } from "react-icons/bs";
 const Home = () => {
   return (
     <>
-      <section className="pt-44 pb-36 text-center">
-        <h1 className="font-lora font-bold 2xl:text-9xl text-7xl text-center mx-auto max-w-4xl 2xl:leading-[150px] text-gray-400">
+      <section className="xmargin 2xl:pt-32 lg:pt-24 md:mt-16 pb-36 text-center lg:max-w-3xl md:max-w-2xl sm:max-w-xl sm:pt-20 2xl:max-w-4xl mx-auto max-w-[475px] pt-24">
+        <h1 className="font-lora font-bold 2xl:text-9xl lg:text-8xl lg:leading-[110px] md:text-7xl md:leading-[95px] sm:leading-[70px] sm:text-6xl text-center mx-auto 2xl:leading-[150px] text-gray-400 text-5xl leading-[60px]">
           Manifest your <span className="font-extrabold text-gray-50">dream life</span> with Neville
         </h1>
-        <p className="text-xl mx-auto max-w-4xl mt-8 leading-8">
+        <p className="lg:text-xl md:text-lg text-base mx-auto 2xl:max-w-4xl 2xl:mt-8 md:mt-6 sm:mt-4 lg:leading-8 sm:max-w-lg max-w-sm mt-6">
           Lorem ipsum dolor sit amet, consectetur adipisicing. Quasi recusandae expedita numquam
           porro consequuntur reiciendis sed cum ex doloremque consectetur!
         </p>
-        <button className="px-32 py-5 rounded-full mt-16 bg-gradient-to-r from-prim1 to-orange-600 text-white">
+        <button className="mt-10 sm:px-16 sm:py-2.5 2xl:px-32 2xl:py-5 py-2.5 px-12 lg:px-24 lg:py-4 md:px-20 md:py-3.5 rounded-full 2xl:mt-16 md:mt-10 lg:mt-12 bg-gradient-to-r from-prim1 to-orange-600 text-white">
           <div className="flex items-center gap-x-4">
-            <span className=" text-xl font-semibold tracking-wide">Start your journey here</span>
-            <BsArrowRight className="w-7 h-7" />
+            <span className="2xl:text-xl md:text-lg font-semibold tracking-wide">
+              Start your journey here
+            </span>
+            <BsArrowRight className="lg:w-7 lg:h-7 w-5 h-5" />
           </div>
         </button>
       </section>

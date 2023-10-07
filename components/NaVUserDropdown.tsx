@@ -17,7 +17,7 @@ const NaVUserDropdown = () => {
   const { data: session, status } = useSession();
 
   return (
-    <Menu as="div" className="relative hidden text-left lg:inline-block">
+    <Menu as="div" className="relative text-left lg:inline-block">
       <div>
         <Menu.Button
           className="inline-flex w-full justify-center rounded-full border border-gray-600 

@@ -10,7 +10,7 @@ const NavBar = async () => {
     <div className={`w-full z-30 bg-gray-800 shadow-md border-b border-gray-700`}>
       <nav
         className={` w-full transition-all
-       duration-200 ease-in-out px-8 py-3`}
+       duration-200 ease-in-out xmargin py-2 md:mt-3.5`}
       >
         <div className="flex flex-wrap items-center justify-between text-base">
           <Link href="/">
@@ -20,10 +20,7 @@ const NavBar = async () => {
           </Link>
           <div className="flex items-center gap-x-14 text-gray-300">
             <div className="flex gap-x-6 items-center">
-              <Link href="/terminology">Blog</Link>
-              <Link href="/terminology">Resources</Link>
-              <Link href="/terminology">Articles</Link>
-              <Link href="/terminology">About us</Link>
+              <Link href="/terminology">Glossary</Link>
             </div>
             <div className="flex items-center gap-x-7 font-medium">
               {!session && <Link href="/auth/signup">Register today</Link>}
