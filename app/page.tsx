@@ -3,11 +3,11 @@ import { BsArrowRight } from "react-icons/bs";
 const Home = () => {
   return (
     <>
-      <section className="xmargin 2xl:pt-16 lg:pt-12 md:mt-16 pb-36 text-center md:max-w-5xl sm:max-w-xl sm:pt-20 2xl:max-w-4xl mx-auto max-w-[475px] pt-24">
+      <section className="xmargin 2xl:pt-16 lg:pt-12 md:mt-16 pb-36 text-center md:max-w-5xl sm:max-w-xl sm:pt-20 2xl:max-w-4xl mx-auto max-w-[475px] pt-32">
         <h1 className="font-lora font-bold 2xl:text-9xl lg:text-8xl lg:leading-[110px] md:text-7xl md:leading-[95px] sm:leading-[70px] sm:text-6xl text-center mx-auto 2xl:leading-[150px] text-gray-400 text-5xl leading-[60px]">
           Manifest your <span className="font-extrabold text-gray-50">dream life</span> with Neville
         </h1>
-        <p className="lg:text-xl lg:max-w-2xl md:text-lg md:max-w-3xl text-base mx-auto 2xl:max-w-4xl 2xl:mt-8 md:mt-6 sm:mt-4 lg:leading-8 sm:max-w-lg max-w-sm mt-6">
+        <p className="lg:text-xl 2xl:text-2xl lg:max-w-2xl md:text-lg md:max-w-3xl text-base mx-auto 2xl:max-w-4xl 2xl:mt-8 md:mt-6 sm:mt-4 lg:leading-8 sm:max-w-lg max-w-sm mt-6">
           Lorem ipsum dolor sit amet, consectetur adipisicing. Quasi recusandae expedita numquam
           porro consequuntur reiciendis sed cum ex doloremque consectetur!
         </p>
