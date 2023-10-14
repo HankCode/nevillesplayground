@@ -75,7 +75,7 @@ export function SidebarItem({ icon, text, alert, link }: SideBarItemProps) {
         transition-colors group
         ${
           isActive
-            ? "bg-gradient-to-tr from-gray-700 to-gray-700 text-gray-200"
+            ? "bg-gradient-to-tr from-gray-700 to-gray-600 text-gray-200"
             : "hover:bg-gray-700 text-gray-400"
         }
     `}

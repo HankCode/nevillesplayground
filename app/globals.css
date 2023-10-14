@@ -39,7 +39,3 @@
 .page-margin {
   @apply pt-52 min-h-screen;
 }
-
-.ReactCollapse--collapse {
-  transition: height 500ms;
-}
